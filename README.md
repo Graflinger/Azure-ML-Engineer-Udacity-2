@@ -15,3 +15,22 @@ This project contains following steps:
 - Documentation including a screencast
 
 Note: As it was not possible, to create a Service principal in the Udacity lab environment, this step was skipped
+
+## Auto ML Experiment
+
+s
+
+## Deploy the best Model
+
+
+## Enable logging
+
+## Swagger documentation
+
+## Consume Model Endpoint
+
+## Create, Publish and Consume a Pipeline
+
+## Documentation
+
+
