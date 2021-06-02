@@ -36,6 +36,7 @@ Swagger documentation was downloaded via a json file and the swagger documentati
 The endpoint got consumed using the endpoint.py script, which is located in the starter_files folder
 
 ## Create, Publish and Consume a Pipeline
+Using the python SDK to create a ML Pipeline
 
 ## Documentation
 
