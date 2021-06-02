@@ -27,7 +27,7 @@ The Auto ML Run resulted into a best model, which used the voting ensemble algor
 This model got deployed using a Azure Container instance.
 
 ## Enable logging
-Logging got enabled using the Python sdk inside the notebook.ipynb jupyter notebook
+Logging got enabled using the Python sdk inside the logs.py script located inside the /starter_files folder
 
 ## Swagger documentation
 Swagger documentation was downloaded via a json file and the swagger documentation website was locally deployed using both scripts in the starter_files/swagger/ folder
