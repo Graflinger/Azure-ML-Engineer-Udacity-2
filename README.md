@@ -22,6 +22,7 @@ This dataset gives us the opportunity to create a model to make a binary classif
 
 For compute resource a Standard_DS12_v2 is used. 
 
+![imbalanced](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/main/Screenshots/2_RegisteredDatasets.PNG
 ## Deploy the best Model
 The Auto ML Run resulted into a best model, which used the voting ensemble algorithm. (0.91520 presicion)
 This model got deployed using a Azure Container instance.
