@@ -39,5 +39,6 @@ The endpoint got consumed using the endpoint.py script, which is located in the 
 Using the python SDK to create a ML Pipeline
 
 ## Documentation
-
+link for the screencast
+https://youtu.be/9LoBYsp6kfs
 
