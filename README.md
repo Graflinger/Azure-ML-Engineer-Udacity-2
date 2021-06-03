@@ -44,7 +44,7 @@ This model got deployed using a Azure Container instance.
 Logging got enabled using the Python sdk inside the logs.py script located inside the /starter_files folder
 
 Enabled logging
-![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/ApplicationInsightTrue.PNG)
+![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/c5b13c398b7acaf8ee57a5c596fe9c7d5ccdcbac/Screenshots/ApplicationInsightTrue.PNG)
 
 logs provided by log.py
 ![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/logs.PNG)
