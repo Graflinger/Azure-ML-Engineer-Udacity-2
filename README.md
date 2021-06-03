@@ -19,7 +19,7 @@ Note: As it was not possible to create a Service principal in the Udacity lab en
 
 
 ## Architecture
-![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/Diagram 2021-06-03 21-24-09.png)
+![Architecture](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/4ba78b432cc405043f40bd557c27fc770c7151ee/Screenshots/Diagram%202021-06-03%2021-24-09.png)
 
 ## Auto ML Experiment
 In this step a Auto ML Model is created using the same bankmarket dataset from course 1. 
@@ -72,10 +72,10 @@ Created Pipeline
 
 
 Pipeline Endpoint
-![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/BankmarketingwithautomlRun.PNG)
+![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/pipelinerest.PNG)
 
 Pipeline Detail
-![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/endpointResult.PNG)
+![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/BankmarketingwithautomlRun.PNG)
 
 Run Details
 ![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/pipelinerundetail.PNG)
