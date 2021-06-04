@@ -13,7 +13,9 @@ This project contains following steps:
 - Creating Swagger Documentation 
 - Consume Model Endpoint
 - Create, Publish and Consume a Pipeline
+- Further Improvements for the future
 - Documentation including a screencast
+
 
 Note: As it was not possible to create a Service principal in the Udacity lab environment, this step was skipped
 
@@ -79,6 +81,12 @@ Pipeline Detail
 
 Run Details
 ![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/pipelinerundetail.PNG)
+
+## Further improvements for the future
+
+1. The Banking dataset could get more prepared for better results (e.g. feature engineering, if imbalanced classes balancing them, gathering more data...)
+2. The training time and performance of the underlying compute cluster of the auto ml function could be increased to get better results
+3. Furthermore deep learning could get activated (if GPU is activated on the cluster) to achieve possibly even better results 
 
 ## Documentation
 link for the screencast
