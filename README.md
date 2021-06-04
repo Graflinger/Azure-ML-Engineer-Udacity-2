@@ -21,6 +21,8 @@ Note: As it was not possible to create a Service principal in the Udacity lab en
 
 
 ## Architecture
+Here you can see how the project is implemented step by step. First the dataset got registered, then a compute cluster got created to run auto ml classification. Afterwards the best model is deployed using a Azure Container Instance, which got logging enabled. Finally the endpoint provides a REST API so you can use the deployed model for a prediction.
+
 ![Architecture](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/4ba78b432cc405043f40bd557c27fc770c7151ee/Screenshots/Diagram%202021-06-03%2021-24-09.png)
 
 ## Auto ML Experiment
@@ -29,13 +31,15 @@ This dataset gives us the opportunity to create a model to make a binary classif
 
 For compute resource a Standard_DS12_v2 is used. 
 
+After completion of the experiment, you can clearly see a list of all models tried and the best one at the top.
+
 Here ist the used dataset registered.
 ![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/2_RegisteredDatasets.PNG)
 
 Here is the completed experiment
 ![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/2experimentcompleted.PNG)
 
-Best Model
+List of Models
 ![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/2bestmodel.PNG)
 
 ## Deploy the best Model
@@ -43,7 +47,7 @@ The Auto ML Run resulted into a best model, which used the voting ensemble algor
 This model got deployed using a Azure Container instance.
 
 ## Enable logging
-Logging got enabled using the Python sdk inside the logs.py script located inside the /starter_files folder
+As you cann see in the "Enabled logging", logging is enabled, so you can use the log.py script to view these logs, as shown under "logs provides by log.py"
 
 Enabled logging
 ![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/c5b13c398b7acaf8ee57a5c596fe9c7d5ccdcbac/Screenshots/ApplicationInsightTrue.PNG)
@@ -52,7 +56,8 @@ logs provided by log.py
 ![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/logs.PNG)
 
 ## Swagger documentation
-Swagger documentation was downloaded via a json file and the swagger documentation website was locally deployed using both scripts in the starter_files/swagger/ folder
+Swagger documentation was downloaded via a json file and the swagger documentation website was locally deployed using both scripts in the starter_files/swagger/ folder.
+This resulted in a overview of the api, as shown in "Swagger API" picture. The detailed payload content is visible under "Swagger payload content"
 
 Swagger API
 ![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/swagger.PNG)
@@ -61,13 +66,13 @@ Swagger payload Content
 ![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/swaggerContents.PNG)
 
 ## Consume Model Endpoint
-The endpoint got consumed using the endpoint.py script, which is located in the starter_files folder
+The endpoint got consumed using the endpoint.py script, which is located in the starter_files folder. This consumption results in a return message, which can be seen in the next screenshot.
 
 Output running against the API using the endpoint.py
 ![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/endpointResult.PNG)
 
 ## Create, Publish and Consume a Pipeline
-Using the python SDK to create a ML Pipeline
+Using the python SDK to create a ML Pipeline. First the pipelines gets created "Created Pipeline" and is completed shown at "Completed Pipelines". Afterwards it got published and is therefore shown as active in "Active published pipeline". The created Endpoint can be seen at "Pipeline Endpoint" and further pipeline and run details are includes at the "Pipeline Detail" and "Run Details" screenshots 
 
 Created Pipeline
 ![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/pipelineCreated.PNG)
