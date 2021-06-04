@@ -72,6 +72,11 @@ Using the python SDK to create a ML Pipeline
 Created Pipeline
 ![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/pipelineCreated.PNG)
 
+Compelted Pipelines
+![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/pipelineoverview.PNG)
+
+Active published pipeline
+![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/Actibe.PNG)
 
 Pipeline Endpoint
 ![Registered Datasets](https://github.com/Graflinger/Azure-ML-Engineer-Udacity-2/blob/d2b21350ca3d342efddf8bf79b42dcbb2bd6ccf0/Screenshots/pipelinerest.PNG)
